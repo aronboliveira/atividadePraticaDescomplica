@@ -1,10 +1,15 @@
 body,
 body > * {
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
   text-align: center;
   text-decoration: none;
+}
+
+body {
+  background: radial-gradient(circle at center, #cfc7c7, #e9e7e7);
 }
 
 a {
